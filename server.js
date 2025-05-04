@@ -15,6 +15,8 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api/books", bookRoutes);
 
-app.listen(process.env.PORT, () => {
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
