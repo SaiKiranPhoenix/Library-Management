@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Build and debug folders
+dist/
+build/
+
+# Optional: Ignore MongoDB data dumps
+dump/
